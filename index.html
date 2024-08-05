@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Yuvan Karthik</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://kit.fontawesome.com/da74ed0190.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/pexels-ann-h-45017-14936128.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">My Projects</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-sliders" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Designer</p>
+                <h1>Hi, i am <span>Yuvan Karthik</span><br> From India</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="./images/peakpx (1).jpg">
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm dedicated fresher with expertise in Python, Java, and web
+                        development technologies like HTML5, CSS3, and CSS Tailwind. I
+                        have a strong background in designing antennas and EBG
+                        mushroom structures, which complements my software skills. I
+                        am proactive about enhancing my abilities and constantly
+                        seeking new opportunities to grow in the software industry</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programing Languages</span><br>C <br>C++ <br>Java</li>
+                            <li><span>Web Development</span><br>Web designing</li>
+                            <li><span>Web Design Tools</span><br>Figma <br>Framer</li>
+                            <li><span>Designing Tools</span><br>Cadence <br>CST Studio Suite <br>Microwind <br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>15/3/2024 - 15/4/2024</span><br>Proidy info tech for Web Development</li>
+                            <li><span>15/3/2024 - 15/4/2024</span><br>Techno Hack for Web Development</li>
+                            <li><span>15/3/2024 - 15/4/2024</span><br>Oasis Info byte for Web Development</li>
+                            <li><span>15/5/2024 - 15/6/2024</span><br>Codsoft for Java Programming</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>S.A.ENGINEERING COLLEGE (AUTONOMOUS)</span><br>2021 - 2025 <br>BACHELOR OF ENGINEERING IN ELECTRONICS AND COMMUNICATION<br>CURRENT CGPA - 8.2</li>
+                            <li><span>G.K.S.V.V SENIOR SEC SCHOOL (CBSE)</span><br>10th - 82.6% <br>12th - 81.4%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>ecommerce site</h2>
+                    <p>i am done a great design take a look at it</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Calculator</h2>
+                    <p>i am done a great design take a look at it</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-slack"></i>
+                    <h2>ticktactoe</h2>
+                    <p>i am done a great design take a look at it</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-hippo"></i>
+                    <h2>Clock</h2>
+                    <p>i am done a great design take a look at it</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------------------------portfolio----------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./images/pexels-pixabay-270632 (1).jpg">
+                <div class="layer">
+                    <h3>Web Designing</h3>
+                    <p>the page is make every curious to experience the effects and pictures</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/chris-ried-ieic5Tq8YMk-unsplash.jpg">
+                <div class="layer">
+                    <h3>Coding</h3>
+                    <p>praticing Coding and participating in competetions </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/maxresdefault.jpg">
+                <div class="layer">
+                    <h3>Antenna Desiging</h3>
+                    <p>Designing antenna using CST Studio suite</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!------------------contact-------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> yuvan24112003@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 8015581118</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <a href="./images/YUVAN_KARTHIK.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Yuvan Karthik. Made with Love <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var sidemen = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemen.style.right = "0"
+        }
+        function closemenu(){
+            sidemen.style.right = "-200px"
+        }
+
+    </script>
+
+</body>
+</html>
